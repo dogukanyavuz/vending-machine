@@ -9,8 +9,9 @@ import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import com.exercise.vendingmachine.exception.EntityNotFoundException;
 
-import javax.persistence.EntityNotFoundException;
+//import javax.persistence.EntityNotFoundException;
 
 @Service
 public class UserServiceImpl implements UserService {

@@ -7,8 +7,9 @@ import com.exercise.vendingmachine.repository.ProductRepository;
 import com.exercise.vendingmachine.service.ProductService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import com.exercise.vendingmachine.exception.EntityNotFoundException;
 
-import javax.persistence.EntityNotFoundException;
+//import javax.persistence.EntityNotFoundException;
 
 @Service
 public class ProductServiceImpl implements ProductService {

@@ -13,8 +13,8 @@ import com.exercise.vendingmachine.repository.UserRepository;
 import com.exercise.vendingmachine.service.VendingMachineService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import javax.persistence.EntityNotFoundException;
+import com.exercise.vendingmachine.exception.EntityNotFoundException;
+//import javax.persistence.EntityNotFoundException;
 import java.util.List;
 
 @Service
