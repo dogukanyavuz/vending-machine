@@ -23,7 +23,7 @@ public class ProductController {
         this.productService = productService;
     }
 
-    @PostMapping
+    @PostMapping()
     private @ResponseBody
     Product createProduct(@AuthenticationPrincipal UserDetailsDto userDetailsDto,
             @RequestBody @Valid ProductDto productDto) {
