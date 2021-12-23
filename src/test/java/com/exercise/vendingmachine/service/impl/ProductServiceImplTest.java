@@ -8,15 +8,19 @@ import com.exercise.vendingmachine.model.Product;
 import com.exercise.vendingmachine.model.User;
 import com.exercise.vendingmachine.repository.ProductRepository;
 import com.exercise.vendingmachine.repository.UserRepository;
+import com.exercise.vendingmachine.service.ProductService;
 import com.exercise.vendingmachine.service.UserService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.security.core.parameters.P;
 
 import java.util.Optional;
 
@@ -29,7 +33,9 @@ import static org.mockito.Mockito.when;
 class ProductServiceImplTest {
 
     @Mock private ProductRepository productRepository;
-    private ProductServiceImpl productService;
+    @InjectMocks private ProductServiceImpl productServiceImpl;
+
+    @Mock private ProductService productService;
 
     Product product1 = new Product(1L,10, 99,"Coca Cola",1L);
     Product product2 = new Product(2l,40,200,"Fanta",2l);
@@ -42,7 +48,6 @@ class ProductServiceImplTest {
     }
 
     @Test
-    @Disabled
     void createProduct() {
         //given
         UserDetailsDto userDetailsDto = new UserDetailsDto(user1);
@@ -67,7 +72,6 @@ class ProductServiceImplTest {
     }
 
     @Test
-    @Disabled
     void getProduct() {
 
         //given
@@ -78,12 +82,36 @@ class ProductServiceImplTest {
     }
 
     @Test
-    @Disabled
     void updateProduct() {
+        Product product = Product.builder()
+                .id(2l)
+                .amountAvailable(40)
+                .cost(200)
+                .productName("Fanta")
+                .sellerId(2l)
+                .build();
+
+        UserDetailsDto userDetailsDto = new UserDetailsDto(user1);
+
+        ProductDto productDto = new ProductDto();
+        productDto.setProductName("Fanta");
+        productDto.setAmountAvailable(20);
+        productDto.setCost(31);
+
+        Product updateProduct = product.builder()
+                .id(2l)
+                .amountAvailable(20)
+                .cost(31)
+                .productName("Fanta")
+                .sellerId(2l)
+                .build();
+
+        Mockito.when(productRepository.findByIdAndSellerId(2l,userDetailsDto.getUser().getId())).thenReturn(Optional.of(product));
+        Mockito.when(productRepository.save(updateProduct)).thenReturn(updateProduct);
+        assertEquals(productServiceImpl.updateProduct(userDetailsDto,2l,productDto),updateProduct);
     }
 
     @Test
-    @Disabled
     void deleteProduct() {
         //given
         UserDetailsDto userDetailsDto = new UserDetailsDto(user1);
