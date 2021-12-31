@@ -31,6 +31,7 @@ public class UserController {
     @PostMapping
     private @ResponseBody
     User createUser(@RequestBody @Valid UserDto userDto) {
+        log.debug("User created");
         return userService.createUser(userDto);
     }
 

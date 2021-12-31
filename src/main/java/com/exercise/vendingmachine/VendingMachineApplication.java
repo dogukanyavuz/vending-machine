@@ -2,6 +2,9 @@ package com.exercise.vendingmachine;
 
 import com.exercise.vendingmachine.model.Product;
 import com.exercise.vendingmachine.repository.ProductRepository;
+import com.exercise.vendingmachine.service.impl.UserServiceImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

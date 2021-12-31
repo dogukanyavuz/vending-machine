@@ -1,0 +1,12 @@
+2021-12-31 07:22:21,993 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 11076 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-31 07:22:22,006 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-31 07:22:22,006 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-31 07:22:27,169 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Started VendingMachineApplication in 5.604 seconds (JVM running for 6.271)
+2021-12-31 07:28:26,167 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 9364 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-31 07:28:26,167 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-31 07:28:26,167 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-31 07:28:30,994 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Started VendingMachineApplication in 5.425 seconds (JVM running for 6.201)
+2021-12-31 07:39:41,398 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 8480 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-31 07:39:41,404 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-31 07:39:41,404 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-31 07:39:46,424 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Started VendingMachineApplication in 5.422 seconds (JVM running for 5.961)

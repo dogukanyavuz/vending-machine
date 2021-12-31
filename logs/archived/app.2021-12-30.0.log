@@ -1,0 +1,149 @@
+2021-12-30 02:43:57,898 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 14728 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-30 02:43:57,899 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-30 02:43:57,900 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 02:44:02,566 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Started VendingMachineApplication in 5.055 seconds (JVM running for 5.693)
+2021-12-30 02:44:09,195 DEBUG com.exercise.vendingmachine.controller.UserController [http-nio-8080-exec-2] User created
+2021-12-30 02:48:25,044 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 18016 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-30 02:48:25,052 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-30 02:48:25,052 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 02:48:29,867 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Started VendingMachineApplication in 5.275 seconds (JVM running for 5.866)
+2021-12-30 02:49:09,758 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 18028 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-30 02:49:09,766 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-30 02:49:09,766 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 02:49:14,517 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Started VendingMachineApplication in 5.155 seconds (JVM running for 5.759)
+2021-12-30 02:49:30,070 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 10412 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-30 02:49:30,072 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-30 02:49:30,073 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 02:49:34,857 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Started VendingMachineApplication in 5.171 seconds (JVM running for 5.789)
+2021-12-30 02:49:41,686 DEBUG com.exercise.vendingmachine.controller.UserController [http-nio-8080-exec-1] User created
+2021-12-30 03:46:55,614 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 16068 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-30 03:46:55,618 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-30 03:46:55,619 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 03:46:58,326 ERROR org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Failed to initialize JPA EntityManagerFactory: @org.hibernate.annotations.Table references an unknown table: 
+2021-12-30 03:46:58,362 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @org.hibernate.annotations.Table references an unknown table: 
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.exercise.vendingmachine.VendingMachineApplication.main(VendingMachineApplication.java:21)
+Caused by: org.hibernate.AnnotationException: @org.hibernate.annotations.Table references an unknown table: 
+	at org.hibernate.cfg.annotations.EntityBinder.processComplementaryTableDefinitions(EntityBinder.java:1265)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:838)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:248)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 16 common frames omitted
+2021-12-30 03:47:31,052 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 564 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-30 03:47:31,055 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-30 03:47:31,059 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 03:47:33,702 ERROR org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Failed to initialize JPA EntityManagerFactory: @org.hibernate.annotations.Table references an unknown table: 
+2021-12-30 03:47:33,734 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @org.hibernate.annotations.Table references an unknown table: 
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.exercise.vendingmachine.VendingMachineApplication.main(VendingMachineApplication.java:21)
+Caused by: org.hibernate.AnnotationException: @org.hibernate.annotations.Table references an unknown table: 
+	at org.hibernate.cfg.annotations.EntityBinder.processComplementaryTableDefinitions(EntityBinder.java:1265)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:838)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:248)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 16 common frames omitted
+2021-12-30 03:47:46,546 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 8768 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-30 03:47:46,547 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-30 03:47:46,548 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 03:47:49,110 ERROR org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Failed to initialize JPA EntityManagerFactory: @org.hibernate.annotations.Table references an unknown table: 
+2021-12-30 03:47:49,148 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @org.hibernate.annotations.Table references an unknown table: 
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.exercise.vendingmachine.VendingMachineApplication.main(VendingMachineApplication.java:21)
+Caused by: org.hibernate.AnnotationException: @org.hibernate.annotations.Table references an unknown table: 
+	at org.hibernate.cfg.annotations.EntityBinder.processComplementaryTableDefinitions(EntityBinder.java:1265)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:838)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:248)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 16 common frames omitted
+2021-12-30 03:48:10,735 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 5844 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-30 03:48:10,738 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-30 03:48:10,738 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 03:48:15,691 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Started VendingMachineApplication in 5.341 seconds (JVM running for 5.895)
+2021-12-30 03:48:29,623 DEBUG com.exercise.vendingmachine.controller.UserController [http-nio-8080-exec-1] User created
+2021-12-30 05:48:00,058 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 12124 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-30 05:48:00,060 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-30 05:48:00,060 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 05:48:04,288 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Started VendingMachineApplication in 4.571 seconds (JVM running for 5.074)
+2021-12-30 05:55:21,830 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 2832 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+2021-12-30 05:55:21,830 DEBUG com.exercise.vendingmachine.VendingMachineApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-12-30 05:55:21,830 INFO com.exercise.vendingmachine.VendingMachineApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 05:55:25,993 INFO com.exercise.vendingmachine.VendingMachineApplication [main] Started VendingMachineApplication in 4.497 seconds (JVM running for 4.984)
+2021-12-30 05:57:12,926 DEBUG com.exercise.vendingmachine.controller.UserController [http-nio-8080-exec-2] User created
