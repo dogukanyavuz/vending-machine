@@ -4,6 +4,7 @@
     <property name="HOME_LOG" value="logs/app.log"/>
 
     <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
         <file>${HOME_LOG}</file>
 
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
@@ -16,9 +17,8 @@
             <!-- 60 days to keep -->
             <maxHistory>60</maxHistory>
         </rollingPolicy>
-
         <encoder>
-            <pattern>%m%n</pattern>
+            <pattern> [%X{ip}] %m%n</pattern>
         </encoder>
     </appender>
 

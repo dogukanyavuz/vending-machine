@@ -1,5 +1,6 @@
 package com.exercise.vendingmachine.service.impl;
 
+import com.exercise.vendingmachine.config.FilterConfig;
 import com.exercise.vendingmachine.dto.UserDto;
 import com.exercise.vendingmachine.dto.UserDetailsDto;
 import com.exercise.vendingmachine.model.User;
@@ -8,19 +9,25 @@ import com.exercise.vendingmachine.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.exercise.vendingmachine.exception.EntityNotFoundException;
 
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpHeaders;
+import java.net.http.HttpRequest;
+import java.time.Duration;
+import java.util.Optional;
+
 
 //import javax.persistence.EntityNotFoundException;
 @Slf4j
 @Service
 public class UserServiceImpl implements UserService {
-
-    Logger logger = LoggerFactory.getLogger("jsonLogger");
 
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
@@ -43,6 +50,7 @@ public class UserServiceImpl implements UserService {
                 .deposit(0L)
                 .role(userDto.getRole())
                 .build();
+        MDC.put("ip", FilterConfig.IP_ADDRESS);
         log.debug("user created");
         return this.userRepository.save(user);
     }
