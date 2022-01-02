@@ -5,6 +5,8 @@ import com.exercise.vendingmachine.dto.UserDetailsDto;
 import com.exercise.vendingmachine.model.User;
 import com.exercise.vendingmachine.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
@@ -18,6 +20,8 @@ import javax.validation.Valid;
         produces=MediaType.APPLICATION_JSON_VALUE,
         consumes=MediaType.APPLICATION_JSON_VALUE)
 public class UserController {
+
+    Logger logger = LoggerFactory.getLogger("jsonLogger");
 
     private final UserService userService;
 
