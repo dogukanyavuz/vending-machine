@@ -1768,3 +1768,9 @@ user created
 [main] [] Started VendingMachineApplication in 5.288 seconds (JVM running for 5.852)
 [http-nio-8080-exec-1] [] User created
 [http-nio-8080-exec-1] [0:0:0:0:0:0:0:1] user created
+[] Starting VendingMachineApplication using Java 11.0.10 on MSKK-DAN-LT9140 with PID 12916 (C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet\target\classes started by dogukan.yavuz in C:\Users\dogukan.yavuz\Workspace\vending-machine-ahmet)
+[] Running with Spring Boot v2.5.4, Spring v5.3.9
+[] No active profile set, falling back to default profiles: default
+[] Started VendingMachineApplication in 5.283 seconds (JVM running for 5.823)
+[] User created
+[0:0:0:0:0:0:0:1] user created
